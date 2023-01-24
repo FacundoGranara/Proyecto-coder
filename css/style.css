@@ -70,7 +70,7 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 70vh;
-    background-image: url("/imagenes/comida.png");
+    background-image: url("./imagenes/comida.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -102,7 +102,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(/imagenes/menu1.png);
+    ,url(./imagenes/menu1.png);
 }
 .cart:nth-child(2){
     background-image: linear-gradient(
@@ -110,7 +110,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(/imagenes/mmenu2.png);
+    ,url(./imagenes/mmenu2.png);
 }
 .cart:nth-child(3){
     background-image: linear-gradient(
@@ -118,7 +118,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(/imagenes/comidaa3.png);
+    ,url(./imagenes/comidaa3.png);
 }
 .mapa{
     height: 400px;
@@ -163,7 +163,7 @@ footer{
         font-size: 25px;
     }
     #comidas .img-container{
-        background-image: url(/imagenes/fotolugar.jpg);
+        background-image: url(./imagenes/fotolugar.jpg);
         background-size: cover;
         background-position: center center;
         height: 500px;
