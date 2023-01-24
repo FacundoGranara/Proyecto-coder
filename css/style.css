@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/* Tamaño de las letras */
+
+h1{ font-size: 1.5em; }
+h2{ font-size: 2.5em;}
+h3{ font-size: 1.5em;}
+p{font-size: 1em;}
+ul{list-style-type: none;}
+
+/* Nav-bar/header */
+header{
+    background-color:#343A40;
+}
+header .logo {
+    color: #F8F9FA;
+    margin: 0;
+    padding: 25px 15px;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-left: 50px;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.indexul{
+    display: block;
+    padding-top: 20px;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    z-index: 10;
+}
+header a{
+    padding: 5px 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F8F9FA;
+}
+header a:hover{
+    color: #000000
+}
+/* hero */
+#hero{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: url("/imagenes/comida.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#comidas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+/* Card */
+#mas-comidas{
+    background-color: rgb(30,30,30);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#mas-comidas .container{
+    padding: 200px 0;
+}
+#mas-comidas .cart{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px;
+}
+.cart:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(/imagenes/menu1.png);
+}
+.cart:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(/imagenes/mmenu2.png);
+}
+.cart:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(/imagenes/comidaa3.png);
+}
+.mapa{
+    height: 400px;
+}
+#sobre-nosotros h2{
+    font-size: 3vw;
+    background-color: #474d53;
+    margin: 0;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+/* footer */
+footer{
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: rgb(255, 255, 255);
+}
+
+/* @media config*/
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+    .indexul{
+        display: flex;
+    }
+    #comidas .container{
+        display: flex;
+    }
+    .texto{
+        font-size: 25px;
+    }
+    #comidas .img-container{
+        background-image: url(/imagenes/fotolugar.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px;
+        margin-right: 100px;
+    }
+    #comidas .texto{
+        width: 50%;
+        align-items: center;
+        padding-top: 100px;
+    }
+    #mas-comidas .comidass{
+        display: flex;
+        justify-content: center;
+    }
+    #hero{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 800px;
+        
+    }
+}
+
+/* Carousel img Sobre Nosotros */
+.d-img{
+    height: 500px;
+    object-fit: cover;
+}
+/* Section form bootstrap Consultas */
+
+.section-color{
+    background-color: #474d53;
+}
+.mb-3{
+    padding: 10px;
+    margin: 47px;
+}
+.mb-2{
+    padding: 10px;
+    margin: 40px;
+}
+.form-control{
+    color: #000000;
+}
