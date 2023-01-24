@@ -71,6 +71,7 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 70vh;
+    background-image: url(/imagenes/comida.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
