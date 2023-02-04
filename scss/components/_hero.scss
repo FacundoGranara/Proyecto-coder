@@ -1,0 +1,15 @@
+#hero{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 30vh;
+    background-image: url("../imagenes/comida.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

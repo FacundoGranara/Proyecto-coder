@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +13,6 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-/* Tamaño de las letras */
 h1 {
   font-size: 1.5em;
 }
@@ -35,7 +33,6 @@ ul {
   list-style-type: none;
 }
 
-/* Nav-bar/header */
 header {
   background-color: #343A40;
   z-index: 1;
@@ -108,7 +105,6 @@ section .card .contenido h3 {
   margin-bottom: 15px;
 }
 
-/* hero */
 #hero {
   color: #ffffff;
   font-size: 10px;
@@ -125,15 +121,10 @@ section .card .contenido h3 {
   background-position: center;
 }
 
-#comidas .container {
+#sobre-nosotros .container {
   text-align: center;
   padding: 200px 12px;
 }
-
-.mapa {
-  height: 400px;
-}
-
 #sobre-nosotros h2 {
   font-size: 3vw;
   background-color: #474d53;
@@ -143,14 +134,16 @@ section .card .contenido h3 {
   font-weight: 100;
 }
 
-/* footer */
+.mapa {
+  height: 400px;
+}
+
 footer {
   text-align: center;
   background-color: rgb(30, 30, 30);
   color: rgb(255, 255, 255);
 }
 
-/* @media config*/
 @media (min-width: 720px) {
   header {
     position: fixed;
@@ -167,18 +160,18 @@ footer {
   .indexul {
     display: flex;
   }
-  #comidas .container {
+  #sobre-nosotros .container {
     display: flex;
   }
-  #comidas .img-container {
-    background-image: url("../imagenes/fotolugar.jpg");
+  #sobre-nosotros .img-container {
+    background-image: url("/imagenes/fotolugar.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;
     width: 500px;
     margin-right: 100px;
   }
-  #comidas .texto {
+  #sobre-nosotros .texto {
     width: 50%;
     align-items: center;
     padding-top: 100px;
@@ -198,14 +191,12 @@ footer {
     font-size: 25px;
   }
 }
-/* Carousel img Sobre Nosotros */
 .d-img {
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-/* Section form bootstrap Consultas */
 .section-color {
   background-color: #474d53;
 }
