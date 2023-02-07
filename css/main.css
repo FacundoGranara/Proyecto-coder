@@ -48,7 +48,11 @@ header .logo {
 }
 header .nav-bar li a {
   text-decoration: none;
-  color: #ffffff;
+  color: rgba(248, 249, 250, 0.4666666667);
+}
+header .nav-bar a:hover {
+  color: #fffbfb;
+  transition: all 0.6s;
 }
 header .container {
   flex-direction: column;
@@ -66,10 +70,11 @@ header a {
   padding: 5px 12px;
   font-weight: bold;
   text-decoration: none;
-  color: #F8F9FA;
+  color: rgba(248, 249, 250, 0.431372549);
 }
 header a:hover {
-  color: #000000;
+  color: #fffbfb;
+  transition: all 0.6s;
 }
 
 section .container2 {
@@ -110,7 +115,6 @@ section .card .contenido h3 {
   font-size: 10px;
   font-weight: bold;
   display: flex;
-  align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
@@ -187,8 +191,15 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 700px;
+    height: 800px;
     font-size: 25px;
+  }
+  footer p {
+    margin: 0px;
+  }
+  .mapa {
+    margin: -16px 10px 10px 10px;
+    margin-bottom: 104px;
   }
 }
 .d-img {
@@ -202,15 +213,33 @@ footer {
 }
 
 .mb-3 {
-  padding: 10px;
-  margin: 47px;
+  margin: 46px;
 }
 
 .mb-2 {
   padding: 10px;
-  margin: 40px;
+  margin: 35px;
 }
 
 .form-control {
   color: #000000;
+}
+
+.boton {
+  text-align: center;
+  margin: 16px;
+}
+.boton input {
+  margin: 4px;
+  padding: 3px 150px 5px 150px;
+  border-radius: 6px;
+  background-color: #3f474b;
+  color: rgba(255, 255, 255, 0.281);
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: rgb(255, 255, 255);
+}
+.boton input:hover {
+  color: #ccc6c6;
+  transition: all 1s;
 }/*# sourceMappingURL=main.css.map */
