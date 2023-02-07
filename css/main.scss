@@ -1,27 +1,62 @@
+// Colores
+@import "../scss/variables/colores";
+
+// reset
 @import "../scss/normalize/reset";
+
+// html
 
 @import "../scss/normalize/html";
 
+// body
+
 @import "../scss/normalize/body";
+
+// Tamaño de letras
 
 @import "../scss/components/size-de-letras";
 
+// Barra de navegacion
+
 @import "../scss/components/nav-bar-header";
+
+// cards del menu, se encuentra en el apartado Sobre nosotros (En la pagina)
 
 @import "../scss/components/card";
 
+// Hero, todo sobre la parte principal de la pagina
+
 @import "../scss/components/hero";
+
+// Sobre nosotros (modificacion de imagen y texto)
 
 @import "../scss/components/sobre-nosotros";
 
+// Mapa
+
 @import "../scss/components/mapa";
+
+// Footer
 
 @import "../scss/normalize/footer";
 
+// Modificaciones desktop @media
+
 @import "../scss/components/media";
+
+// Configuraciones carousel Bootstrap
 
 @import "../scss/components/carousel-img-sobre-nosotro";
 
+// Formulario de Bootstrap
+
 @import "../scss/components/form-bootstrap";
 
-@import "../scss/components/button"
+// Configuracion de botones
+
+@import "../scss/components/button";
+
+.container-fluid{
+    padding-right: 10%;
+    margin: 10px 10px 0px 70px;
+}

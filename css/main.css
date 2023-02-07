@@ -1,6 +1,6 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: "Nunito", sans-serif;
 }
 
@@ -34,11 +34,11 @@ ul {
 }
 
 header {
-  background-color: #343A40;
+  background-color: #3f474b;
   z-index: 1;
 }
 header .logo {
-  color: #F8F9FA;
+  color: #fffcfc;
   margin: 0;
   padding: 25px 15px;
   font-weight: 600;
@@ -51,7 +51,7 @@ header .nav-bar li a {
   color: rgba(248, 249, 250, 0.4666666667);
 }
 header .nav-bar a:hover {
-  color: #fffbfb;
+  color: #fffcfc;
   transition: all 0.6s;
 }
 header .container {
@@ -73,7 +73,7 @@ header a {
   color: rgba(248, 249, 250, 0.431372549);
 }
 header a:hover {
-  color: #fffbfb;
+  color: #fffcfc;
   transition: all 0.6s;
 }
 
@@ -81,6 +81,9 @@ section .container2 {
   display: flex;
   max-width: 1100px;
   padding: 100px 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 section .card {
   border-radius: 6px;
@@ -111,15 +114,15 @@ section .card .contenido h3 {
 }
 
 #hero {
-  color: #ffffff;
+  color: #fffcfc;
   font-size: 10px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 30vh;
-  background-image: url("../imagenes/comida.png");
+  height: 45vh;
+  background-image: url("../imagenes/foto-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -127,26 +130,29 @@ section .card .contenido h3 {
 
 #sobre-nosotros .container {
   text-align: center;
-  padding: 200px 12px;
+  padding: 150px 12px;
 }
 #sobre-nosotros h2 {
   font-size: 1vw;
-  background-color: #474d53;
+  background-color: #3f474b;
   margin: 0;
   padding: 10px;
-  color: rgb(255, 255, 255);
+  color: #fffcfc;
   font-weight: 100;
 }
 
 .mapa {
-  height: 400px;
-  margin: 1px;
+  height: 500px;
+  margin: -1px;
 }
 
 footer {
   text-align: center;
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(30, 30, 20);
   color: rgb(255, 255, 255);
+}
+footer p {
+  margin: 0;
 }
 
 @media (min-width: 720px) {
@@ -200,7 +206,10 @@ footer {
   }
   .mapa {
     margin: -16px 10px 10px 10px;
-    margin-bottom: 104px;
+    margin-bottom: 4px;
+  }
+  .boton {
+    margin: 20px;
   }
 }
 .d-img {
@@ -210,16 +219,16 @@ footer {
 }
 
 .section-color {
-  background-color: #474d53;
+  background-color: #3f474b;
 }
 
 .mb-3 {
-  margin: 46px;
+  margin: 45px;
 }
 
 .mb-2 {
   padding: 10px;
-  margin: 35px;
+  margin: 36px;
 }
 
 .form-control {
@@ -228,19 +237,23 @@ footer {
 
 .boton {
   text-align: center;
-  margin: 16px;
 }
 .boton input {
   margin: 4px;
-  padding: 3px 150px 5px 150px;
-  border-radius: 6px;
-  background-color: #3f474b;
-  color: rgba(255, 255, 255, 0.281);
+  padding: 0px 144px 0px 144px;
+  border-radius: 4px;
+  background-color: rgba(49, 18, 136, 0.685);
+  color: rgba(255, 255, 255, 0.486);
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-color: rgb(255, 255, 255);
+  border-color: #fffcfc;
 }
 .boton input:hover {
-  color: #ccc6c6;
-  transition: all 1s;
+  color: #fffcfc;
+  transition: all 0.8s;
+}
+
+.container-fluid {
+  padding-right: 10%;
+  margin: 10px 10px 0px 70px;
 }/*# sourceMappingURL=main.css.map */

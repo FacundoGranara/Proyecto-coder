@@ -1,13 +1,16 @@
-.section-color{
-    background-color: #474d53;
+.section-color {
+    background-color: $background-color;
 }
-.mb-3{
-    margin: 46px;
+
+.mb-3 {
+    margin: 45px;
 }
-.mb-2{
+
+.mb-2 {
     padding: 10px;
-    margin: 35px;
+    margin: 36px;
 }
-.form-control{
-    color: #000000;
+
+.form-control {
+    color: $secundarios;
 }

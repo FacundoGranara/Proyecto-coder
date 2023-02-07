@@ -1,13 +1,13 @@
-#hero{
-    color: #ffffff;
+#hero {
+    color: $primarios;
     font-size: 10px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 30vh;
-    background-image: url("../imagenes/comida.png");
+    height: 45vh;
+    background-image: url("../imagenes/foto-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

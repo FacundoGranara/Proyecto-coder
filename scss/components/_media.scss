@@ -1,25 +1,29 @@
-@media (min-width: 720px){
-    header{
+@media (min-width: 720px) {
+    header {
         position: fixed;
         width: 100%;
 
-        .container{
+        .container {
             flex-direction: row;
             justify-content: space-between;
         }
-        nav{
+
+        nav {
             flex-direction: row;
             padding-bottom: 0;
         }
     }
-    .indexul{
+
+    .indexul {
         display: flex;
     }
-    #sobre-nosotros{
-        .container{
+
+    #sobre-nosotros {
+        .container {
             display: flex;
         }
-        .img-container{
+
+        .img-container {
             background-image: url("../imagenes/fotolugar.jpg");
             background-size: cover;
             background-position: center center;
@@ -27,38 +31,46 @@
             width: 500px;
             margin-right: 100px;
         }
-        .texto{
+
+        .texto {
             width: 50%;
             align-items: center;
             padding-top: 100px;
         }
     }
-    .texto{
+
+    .texto {
         font-size: 25px;
     }
-    #mas-comidas{
-        .comidass{
+
+    #mas-comidas {
+        .comidass {
             display: flex;
             justify-content: center;
         }
     }
-    #hero{
+
+    #hero {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 800px;
         font-size: 25px;
-        
+
     }
-    footer{
-        p{
+
+    footer {
+        p {
             margin: 0px;
         }
     }
-    
-    .mapa{
+
+    .mapa {
         margin: -16px 10px 10px 10px;
-        margin-bottom: 104px;
+        margin-bottom: 4px;
     }
-    
+
+    .boton {
+        margin: 20px;
+    }
 }

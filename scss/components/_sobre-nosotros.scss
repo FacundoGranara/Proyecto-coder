@@ -1,14 +1,15 @@
-#sobre-nosotros{
-    .container{
+#sobre-nosotros {
+    .container {
         text-align: center;
-        padding: 200px 12px;
+        padding: 150px 12px;
     }
-    h2{
+
+    h2 {
         font-size: 1vw;
-        background-color: #474d53;
+        background-color: $background-color;
         margin: 0;
         padding: 10px;
-        color: rgb(255, 255, 255);
+        color: $primarios;
         font-weight: 100;
     }
 }
