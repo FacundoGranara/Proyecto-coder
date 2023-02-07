@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 h2 {
@@ -130,7 +130,7 @@ section .card .contenido h3 {
   padding: 200px 12px;
 }
 #sobre-nosotros h2 {
-  font-size: 3vw;
+  font-size: 1vw;
   background-color: #474d53;
   margin: 0;
   padding: 10px;
@@ -140,6 +140,7 @@ section .card .contenido h3 {
 
 .mapa {
   height: 400px;
+  margin: 1px;
 }
 
 footer {
