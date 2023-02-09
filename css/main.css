@@ -155,6 +155,47 @@ footer p {
   margin: 0;
 }
 
+.d-img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-color {
+  background-color: #565c5f;
+}
+
+.mb-3 {
+  margin: 45px;
+}
+
+.mb-2 {
+  padding: 10px;
+  margin: 36px;
+}
+
+.form-control {
+  color: #000000;
+}
+
+.boton {
+  text-align: center;
+}
+.boton input {
+  margin: 4px;
+  padding: 0px 144px 0px 144px;
+  border-radius: 4px;
+  background-color: rgba(49, 18, 136, 0.685);
+  color: rgba(255, 255, 255, 0.486);
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: #fffcfc;
+}
+.boton input:hover {
+  color: #fffcfc;
+  transition: all 0.8s;
+}
+
 @media (min-width: 720px) {
   header {
     position: fixed;
@@ -211,48 +252,42 @@ footer p {
   .boton {
     margin: 20px;
   }
+  section .container2 {
+    max-width: 1100px;
+    padding: 100px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  section .card {
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  section .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+  section .card img {
+    width: 400px;
+  }
+  section .card .contenido {
+    padding: 50px;
+    text-align: center;
+  }
+  section .card .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+  }
+  section .card .contenido h3 {
+    font-weight: 200px;
+    margin-bottom: 15px;
+  }
 }
-.d-img {
-  height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.section-color {
-  background-color: #3f474b;
-}
-
-.mb-3 {
-  margin: 45px;
-}
-
-.mb-2 {
-  padding: 10px;
-  margin: 36px;
-}
-
-.form-control {
-  color: #000000;
-}
-
-.boton {
-  text-align: center;
-}
-.boton input {
-  margin: 4px;
-  padding: 0px 144px 0px 144px;
-  border-radius: 4px;
-  background-color: rgba(49, 18, 136, 0.685);
-  color: rgba(255, 255, 255, 0.486);
-  font-size: 17px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-color: #fffcfc;
-}
-.boton input:hover {
-  color: #fffcfc;
-  transition: all 0.8s;
-}
-
 .container-fluid {
   padding-right: 10%;
   margin: 10px 10px 0px 70px;

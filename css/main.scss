@@ -40,10 +40,6 @@
 
 @import "../scss/normalize/footer";
 
-// Modificaciones desktop @media
-
-@import "../scss/components/media";
-
 // Configuraciones carousel Bootstrap
 
 @import "../scss/components/carousel-img-sobre-nosotro";
@@ -55,6 +51,10 @@
 // Configuracion de botones
 
 @import "../scss/components/button";
+
+// Modificaciones desktop @media
+
+@import "../scss/components/media";
 
 .container-fluid{
     padding-right: 10%;
